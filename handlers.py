@@ -60,7 +60,7 @@ async def evaluate_scam(update: Update, context: ContextTypes.DEFAULT_TYPE, user
         # Prepare the prompt for the Gemini model
         prompt = (
             "You are a secret agent detective specializing in identifying scams. "
-            "Based on the following questions and answers, determine if this is a scam or not. "
+            "Based on the following questions and answers, determine if this is a scam or not. Analyse user's emotional way through texting to get more depth of understanding. "
             "Provide a detailed analysis and conclusion.\n\n"
             "Questions and Answers:\n"
         )
@@ -69,7 +69,7 @@ async def evaluate_scam(update: Update, context: ContextTypes.DEFAULT_TYPE, user
 
         prompt += (
             "\nAnalysis:\n"
-            "1. Identify any red flags or suspicious patterns in the answers.\n"
+            "1. Identify any red flags or suspicious patterns in the answers. If there is none, ask the user to send the mail document for manual analysis\n"
             "2. Compare the situation with known scam tactics.\n"
             "3. Provide a conclusion on whether this is likely a scam or not.\n\n"
             "Conclusion:"
@@ -102,5 +102,5 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if concern in scam_responses:
             response = scam_responses[concern]["response"]
         else:
-            response = "I’m here to help you with scam-related concerns. Please use /checkJobScam, /checkRomanceScam, or /checkTechSupportScam to start a scam check."
+            response = "Hello, You are at the right place. I’m here to help you with scam-related concerns. Please use /checkJobScam, /checkRomanceScam, or /checkTechSupportScam to start a scam check."
         await update.message.reply_text(response, parse_mode="Markdown")
