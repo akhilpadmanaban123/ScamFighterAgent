@@ -1,14 +1,14 @@
 {
     "job_scam": {
       "questions": [
-        "Can you describe the job offer? (e.g., part-time job earning $1000/day)",
-        "Are they asking you to pay any upfront fees?",
+        "Can you describe the job offer? Describe the situation in short (e.g., part-time job earning $1000/day)",
+        "Are they asking you to pay any upfront fees? This is not normal at first stage. But it could happen after a time period..",
         "Are they promising unrealistic earnings for minimal work?",
         "Are they asking you to review pages or like Instagram posts for payment?",
         "Are they asking for your personal or financial information?"
       ],
       "conditions": [
-        "If they are promising unrealistic earnings, it's likely a scam.",
+        "If they are promising unrealistic earnings, it's surely a scam.",
         "If they are asking for upfront fees, it's likely a scam.",
         "If they are asking you to review pages or like posts for payment, it's likely a scam."
       ]

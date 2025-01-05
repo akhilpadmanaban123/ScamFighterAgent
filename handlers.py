@@ -9,13 +9,13 @@ scam_questions = load_json("scam_questions.json")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_message = (
-        "🚨 *Welcome to the Scam Catcher Bot!* 🚨\n\n"
-        "I can help you identify and avoid scams, and provide advice if you’ve been scammed.\n\n"
+        "🚨 *Welcome to the ScamAgentBot!* 🚨\n\n"
+        "I can help you identify and avoid scams, and provide advice if you’ve been scammed. Let's stop before it gets too late\n\n"
         "📋 *How to use me:*\n"
         "1. Use /checkJobScam to check if a job offer is a scam.\n"
         "2. Use /checkRomanceScam to check if a romance situation is a scam.\n"
         "3. Use /checkTechSupportScam to check if a tech support request is a scam.\n\n"
-        "Let's stay safe together! 🛡️"
+        "Let's stay safe together! 🛡️" 
     )
     await update.message.reply_text(welcome_message, parse_mode="Markdown")
 
@@ -45,6 +45,8 @@ async def ask_next_question(update: Update, context: ContextTypes.DEFAULT_TYPE, 
         else:
             await evaluate_scam(update, context, user_id)
 
+
+# This is a secret agent which analyzes the responses.
 async def evaluate_scam(update: Update, context: ContextTypes.DEFAULT_TYPE, user_id: int):
     session = get_session(user_id)
     if session:
@@ -76,7 +78,6 @@ async def evaluate_scam(update: Update, context: ContextTypes.DEFAULT_TYPE, user
         # Get the evaluation from the Gemini model
         gemini_model = context.bot_data["gemini_model"]
         evaluation = gemini_model.generate_content(prompt).text
-        print('evaluations = \n\n\n\n',evaluation)
 
         # Send the evaluation to the user
         await update.message.reply_text(evaluation)
