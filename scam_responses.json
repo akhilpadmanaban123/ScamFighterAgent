@@ -1,0 +1,34 @@
+{
+    "paid_money": {
+      "title": "I already paid money to scammers",
+      "response": "If you’ve paid money to scammers, take these steps immediately:\n\n1. **Contact Your Bank or Payment Provider:** Notify them about the fraudulent transaction. They may be able to reverse the payment or stop further charges.\n2. **Report to Authorities:** File a report with your local law enforcement and the FTC at https://reportfraud.ftc.gov.\n3. **Monitor Your Accounts:** Check your bank and credit card statements for any unauthorized charges.\n4. **Change Passwords:** If you shared any login details, change your passwords immediately.\n\nFor more details, visit: https://consumer.ftc.gov/articles/what-do-if-you-were-scammed"
+    },
+    "get_money_back": {
+      "title": "How to get my money back",
+      "response": "Getting your money back after a scam can be challenging, but here’s what you can do:\n\n1. **Contact Your Bank:** Ask if they can reverse the transaction (e.g., for credit card payments or wire transfers).\n2. **File a Complaint:** Report the scam to the FTC at https://reportfraud.ftc.gov.\n3. **Check for Refund Policies:** If you paid through a platform like PayPal, check their refund policies.\n4. **Seek Legal Advice:** Consult a lawyer to explore your options.\n\nLearn more at: https://consumer.ftc.gov/articles/what-do-if-you-were-scammed"
+    },
+    "prevent_scams": {
+      "title": "How to avoid scams in the future",
+      "response": "To protect yourself from scams:\n\n1. **Be Skeptical:** If an offer sounds too good to be true, it probably is.\n2. **Verify Contacts:** Double-check the identity of anyone asking for money or personal information.\n3. **Use Secure Payment Methods:** Avoid wire transfers or gift cards for payments.\n4. **Stay Informed:** Regularly check scam alerts from the FTC at https://consumer.ftc.gov/scam-alerts.\n\nFor more tips, visit: https://consumer.ftc.gov/articles/how-avoid-scam"
+    },
+    "identity_theft": {
+      "title": "What to do if my identity was stolen",
+      "response": "If you suspect identity theft, take these steps:\n\n1. **Place a Fraud Alert:** Contact one of the three major credit bureaus (Equifax, Experian, or TransUnion) to place a fraud alert on your credit report.\n2. **Check Your Credit Report:** Look for any unauthorized accounts or transactions.\n3. **Report to the FTC:** File a report at https://identitytheft.gov.\n4. **Contact Financial Institutions:** Notify your bank, credit card companies, and other financial institutions.\n\nLearn more at: https://consumer.ftc.gov/articles/what-do-if-your-identity-stolen"
+    },
+    "phishing_scam": {
+      "title": "What to do if I fell for a phishing scam",
+      "response": "If you’ve fallen for a phishing scam, act quickly:\n\n1. **Change Passwords:** Update passwords for any compromised accounts.\n2. **Enable Two-Factor Authentication:** Add an extra layer of security to your accounts.\n3. **Scan for Malware:** Run a virus scan on your device to check for malware.\n4. **Report the Scam:** Forward phishing emails to reportphishing@apwg.org and report to the FTC at https://reportfraud.ftc.gov.\n\nFor more details, visit: https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams"
+    },
+    "job_scam": {
+      "title": "What to do if I fell for a job scam",
+      "response": "If you’ve been scammed by a fake job offer, take these steps:\n\n1. **Stop Communication:** Do not provide any more personal information or money.\n2. **Report the Scam:** File a complaint with the FTC at https://reportfraud.ftc.gov.\n3. **Contact Your Bank:** If you paid any fees, ask if they can reverse the transaction.\n4. **Warn Others:** Share your experience to help others avoid similar scams.\n\nLearn more at: https://consumer.ftc.gov/articles/job-scams"
+    },
+    "romance_scam": {
+      "title": "What to do if I fell for a romance scam",
+      "response": "If you’ve been scammed in a romance scam, take these steps:\n\n1. **Stop Communication:** Cut off all contact with the scammer.\n2. **Report the Scam:** File a complaint with the FTC at https://reportfraud.ftc.gov.\n3. **Contact Your Bank:** If you sent money, ask if they can reverse the transaction.\n4. **Seek Support:** Talk to friends, family, or a counselor for emotional support.\n\nFor more details, visit: https://consumer.ftc.gov/articles/what-you-need-know-about-romance-scams"
+    },
+    "tech_support_scam": {
+      "title": "What to do if I fell for a tech support scam",
+      "response": "If you’ve been scammed by a fake tech support call or website, take these steps:\n\n1. **Disconnect Your Device:** If you gave remote access, disconnect your device from the internet.\n2. **Scan for Malware:** Run a virus scan to check for any installed malware.\n3. **Change Passwords:** Update passwords for any compromised accounts.\n4. **Report the Scam:** File a complaint with the FTC at https://reportfraud.ftc.gov.\n\nLearn more at: https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams"
+    }
+  }

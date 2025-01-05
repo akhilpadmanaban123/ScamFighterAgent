@@ -1,0 +1,42 @@
+{
+    "job_scam": {
+      "questions": [
+        "Can you describe the job offer? (e.g., part-time job earning $1000/day)",
+        "Are they asking you to pay any upfront fees?",
+        "Are they promising unrealistic earnings for minimal work?",
+        "Are they asking you to review pages or like Instagram posts for payment?",
+        "Are they asking for your personal or financial information?"
+      ],
+      "conditions": [
+        "If they are promising unrealistic earnings, it's likely a scam.",
+        "If they are asking for upfront fees, it's likely a scam.",
+        "If they are asking you to review pages or like posts for payment, it's likely a scam."
+      ]
+    },
+    "romance_scam": {
+      "questions": [
+        "Can you describe the situation? (e.g., someone you met online asking for money)",
+        "Are they asking for money or financial help?",
+        "Have they refused to meet in person or video call?",
+        "Are they pressuring you to send money quickly?"
+      ],
+      "conditions": [
+        "If they are asking for money, it's likely a scam.",
+        "If they refuse to meet in person or video call, it's likely a scam.",
+        "If they are pressuring you to send money quickly, it's likely a scam."
+      ]
+    },
+    "tech_support_scam": {
+      "questions": [
+        "Can you describe the situation? (e.g., someone claiming to be from tech support)",
+        "Are they asking for remote access to your computer?",
+        "Are they asking for payment to fix a non-existent issue?",
+        "Are they pressuring you to act quickly?"
+      ],
+      "conditions": [
+        "If they are asking for remote access, it's likely a scam.",
+        "If they are asking for payment for a non-existent issue, it's likely a scam.",
+        "If they are pressuring you to act quickly, it's likely a scam."
+      ]
+    }
+  }
